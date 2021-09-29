@@ -27,18 +27,19 @@ observe following things: -
   6. For all stores, Promotion would lead to increase in Sales and Customers
   both.
 
-Models Implementation: -
-1. Linear Regression
-Fair Accuracy with low train and test score.
-2. Lasso Regression
-Fair Accuracy with low train and test score.
-3. Decision Tree Regressor
-Good train and test score.
-4. K- nearest neighbors
-Poor train and test score in comparison to other models.
-5.Random Forest Regressor
-Very good train and test score with good accuracy.
-Conclusions: -
+### Models Implementation: -
+  1. **Linear Regression**
+  Fair Accuracy with low train and test score.
+  2. **Lasso Regression**
+  Fair Accuracy with low train and test score.
+  3. **Decision Tree Regressor**
+  Good train and test score.
+  4. **K- nearest neighbors**
+  Poor train and test score in comparison to other models.
+  5. **Random Forest Regressor**
+  Very good train and test score with good accuracy.
+  
+### Conclusions: -
 The Rossmann Store Sales problem is a very interesting data science problem
 to solve. We observed that the problem is more focused on feature
 engineering and feature selection than on model selection.
