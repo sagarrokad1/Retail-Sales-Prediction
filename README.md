@@ -11,19 +11,21 @@ state holidays, seasonality, and locality.
 So we were provided with historical sales data for 1,115 Rossmann stores and
 the task was to forecast the "Sales" column for the test set.
 
-APPROACH
+## APPROACH
 
-Exploratory Data Analysis: -
+### Exploratory Data Analysis: -
+
 We performed exploratory data analysis with python to get insights from the data to
 observe following things: -
-● Sales were highly correlated to the number of Customers.
-● The most selling and crowded store type was A.
-● Store Type B had the lowest Average Sales per Customer. So we think
-customers visit this type only for small things.
-● Store Type D had the highest buyer cart.
-● Promo would run only on weekdays.
-● For all stores, Promotion would lead to increase in Sales and Customers
-both.
+
+  1. Sales were highly correlated to the number of Customers.
+  2. The most selling and crowded store type was A.
+  3. Store Type B had the lowest Average Sales per Customer. So we think
+  customers visit this type only for small things.
+  4. Store Type D had the highest buyer cart.
+  5. Promo would run only on weekdays.
+  6. For all stores, Promotion would lead to increase in Sales and Customers
+  both.
 
 Models Implementation: -
 1. Linear Regression
