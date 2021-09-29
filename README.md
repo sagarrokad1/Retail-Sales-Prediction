@@ -35,19 +35,20 @@ observe following things: -
   5. **Random Forest Regressor** - Very good train and test score with good accuracy.
   
 ### Conclusions: -
+
 The Rossmann Store Sales problem is a very interesting data science problem
 to solve. We observed that the problem is more focused on feature
 engineering and feature selection than on model selection.
-Train score Test score
-Linear regression 0.78 0.78
-Lasso Regression 0.78 0.78
-Decision Tree 0.99 0.91
-Decision Tree with
-Parameter
 
-0.96 0.93
+|  | Train score | Test score|
+|      :---:      |     :---:      |     :---:     |
+| Linear regression   | 0.78     | 0.78    |
+| Lasso Regression     | 0.78       | 0.79      |
+| Decision Tree     | 0.99       | 0.91      |
+| KNN     | 0.74       | 0.72     |
+| Decision Tree with Hyper Parameter     | 0.96    | 0.93    |
+| Random Forest with Hyper Parameter     | 0.99   | 0.96    |
 
-Random Forest 0.99 0.95
 
 Among all models, Random Forest works the best and provides a reliable
 prediction of the sales.
