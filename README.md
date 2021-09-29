@@ -1,11 +1,13 @@
 # Rossman-Sales-Prediction
 
-PROBLEM STATEMENT
+## PROBLEM STATEMENT
+
 The data set that was provided to us was of Rossmann that operates over
 3,000 drug stores in 7 European countries. Rossmann store challenge was to
 predict their daily sales for up to six weeks in advance. Store sales are
 influenced by many factors, including promotions, competition, school and
 state holidays, seasonality, and locality.
+
 So we were provided with historical sales data for 1,115 Rossmann stores and
 the task was to forecast the "Sales" column for the test set.
 
