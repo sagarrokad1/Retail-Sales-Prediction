@@ -34,9 +34,7 @@ observe following things: -
   4. **K- nearest neighbors** - Poor train and test score in comparison to other models.
   5. **Random Forest Regressor** - Very good train and test score with good accuracy.
   
-### Conclusions: -
-
-
+### Model Performance:
 
 | **Model** | **Train score** | **Test score**|
 |      :---:      |     :---:      |     :---:     |
@@ -50,5 +48,7 @@ observe following things: -
 ### Conclusions: -
 
   1. The Rossmann Store Sales problem is a very interesting data science problem to solve. We observed that the problem is more focused on feature engineering and feature selection than on model selection.
+  
   2. Among all models, Random Forest works the best and provides a reliable prediction of the sales.
+  
   3. Our model shows that Customers, Competition distance, Store type are some of the most important features in our sales prediction. We need to focus on these aspects to maximize our profits for the next 6 weeks.
